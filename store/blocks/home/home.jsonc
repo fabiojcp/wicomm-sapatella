@@ -22,6 +22,9 @@
       "preload": true,
       "images": [
         {
+          "highPriority": true,
+          "eager": true,
+          "lazy": false,
           "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
         },
