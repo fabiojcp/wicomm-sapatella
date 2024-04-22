@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "DM_Sans";
+  font-style: normal;
+  font-weight: 100 1000;
+  src: local("DM_Sans"),
+    url("assets/fonts/dm_sans_normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "DM_Sans";
+  font-style: italic;
+  font-weight: 100 1000;
+  src: local("DM_Sans"),
+    url("assets/fonts/dm_sans_italic.woff2") format("woff2");
+}

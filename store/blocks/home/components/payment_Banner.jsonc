@@ -1,0 +1,105 @@
+{
+  "flex-layout.row#payment_Banner": {
+    "children": [
+      "flex-layout.row#payment_Banner_children1",
+      "flex-layout.row#payment_Banner_children2",
+      "flex-layout.row#payment_Banner_children3",
+      "flex-layout.row#payment_Banner_children4"
+    ],
+    "props": {
+      "blockClass": "Payment_Banner"
+    }
+  },
+  "flex-layout.row#payment_Banner_children1": {
+    "children": [
+      "image#payment_Banner_children1",
+      "rich-text#payment_Banner_children1"
+    ],
+    "props": {
+      "blockClass": "Payment_Banner_children",
+      "colSizing": "auto"
+    }
+  },
+  "image#payment_Banner_children1": {
+    "props": {
+      "src": "assets/icons/paymentBanner/truck.svg",
+      "alt": "truck inside circle pink",
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+  "rich-text#payment_Banner_children1": {
+    "props": {
+      "text": "Frete Grátis p/ Sudeste",
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+
+  "flex-layout.row#payment_Banner_children2": {
+    "children": [
+      "image#payment_Banner_children2",
+      "rich-text#payment_Banner_children2"
+    ],
+    "props": {
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+  "image#payment_Banner_children2": {
+    "props": {
+      "src": "assets/icons/paymentBanner/ticket.svg",
+      "alt": "ticket inside circle pink",
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+  "rich-text#payment_Banner_children2": {
+    "props": {
+      "text": "R$ 20 off na 1º compra",
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+
+  "flex-layout.row#payment_Banner_children3": {
+    "children": [
+      "image#payment_Banner_children3",
+      "rich-text#payment_Banner_children3"
+    ],
+    "props": {
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+  "image#payment_Banner_children3": {
+    "props": {
+      "src": "assets/icons/paymentBanner/pix.svg",
+      "alt": "pix inside circle pink",
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+  "rich-text#payment_Banner_children3": {
+    "props": {
+      "text": "Pague via PIX",
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+
+  "flex-layout.row#payment_Banner_children4": {
+    "children": [
+      "image#payment_Banner_children4",
+      "rich-text#payment_Banner_children4"
+    ],
+    "props": {
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+  "image#payment_Banner_children4": {
+    "props": {
+      "src": "assets/icons/paymentBanner/card.svg",
+      "alt": "credit card inside circle pink",
+      "blockClass": "Payment_Banner_children"
+    }
+  },
+  "rich-text#payment_Banner_children4": {
+    "props": {
+      "text": "Parcele em até 6x sem juros",
+      "blockClass": "Payment_Banner_children"
+    }
+  }
+}

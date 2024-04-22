@@ -1,0 +1,47 @@
+{
+  "list-context.image-list#banner": {
+    "children": ["slider-layout#banner"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "preload": true,
+          "loading": "eager",
+          "fetchpriority": "high",
+          "image": "assets/banners/banner.webp",
+          "mobileImage": "assets/banners/banner.webp"
+        },
+        {
+          "preload": true,
+          "loading": "eager",
+          "fetchpriority": "high",
+          "image": "assets/banners/banner.webp",
+          "mobileImage": "assets/banners/banner.webp"
+        },
+        {
+          "preload": true,
+          "loading": "eager",
+          "fetchpriority": "high",
+          "image": "assets/banners/banner.webp",
+          "mobileImage": "assets/banners/banner.webp"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 3000
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel_Banner"
+    }
+  }
+}
