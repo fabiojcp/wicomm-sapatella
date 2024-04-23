@@ -1,0 +1,55 @@
+.flexRow--Products_Sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 100% !important;
+  width: 100% !important;
+  height: fit-content !important;
+  padding: 72px 0 86px 0;
+
+  * {
+    height: fit-content !important;
+    min-height: fit-content !important;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.flexCol--Products_Sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 100% !important;
+  width: 100% !important;
+  height: fit-content !important;
+  padding: 0;
+  row-gap: 32px;
+}
+
+.flexRowContent--Products_Sections_Cards_Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 100% !important;
+  width: 100% !important;
+  height: fit-content !important;
+  padding: 0;
+  column-gap: 36px;
+}
+
+.flexCol--Products_Sections_Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  row-gap: 14px;
+  height: fit-content !important;
+  width: 162px !important;
+}

@@ -1,8 +1,9 @@
 {
-  "store.home": {
+  "store.home#home": {
     "blocks": [
       "list-context.image-list#banner",
-      "flex-layout.row#payment_Banner"
+      "flex-layout.row#payment_Banner",
+      "flex-layout.row#products_Sections"
     ],
     "parent": { "header": "" }
   }

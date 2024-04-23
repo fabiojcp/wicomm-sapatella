@@ -1,0 +1,161 @@
+{
+  "flex-layout.row#products_Sections": {
+    "children": ["flex-layout.col#products_Sections"],
+    "props": {
+      "blockClass": "Products_Sections"
+    }
+  },
+
+  "flex-layout.col#products_Sections": {
+    "children": [
+      "rich-text#products_Sections_Title",
+      "flex-layout.row#products_Sections_Cards_Wrapper"
+    ],
+    "props": {
+      "blockClass": "Products_Sections",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#products_Sections_Title": {
+    "props": {
+      "text": "Compre por categoria",
+      "blockClass": "Products_Sections_Title"
+    }
+  },
+
+  "flex-layout.row#products_Sections_Cards_Wrapper": {
+    "children": [
+      "flex-layout.col#products_Sections_1",
+      "flex-layout.col#products_Sections_2",
+      "flex-layout.col#products_Sections_3",
+      "flex-layout.col#products_Sections_4",
+      "flex-layout.col#products_Sections_5",
+      "flex-layout.col#products_Sections_6"
+    ],
+    "props": {
+      "blockClass": "Products_Sections_Cards_Wrapper"
+    }
+  },
+
+  "flex-layout.col#products_Sections_1": {
+    "children": ["image#products_Sections_1", "rich-text#products_Sections_1"],
+    "props": {
+      "blockClass": "Products_Sections_Card"
+    }
+  },
+  "image#products_Sections_1": {
+    "props": {
+      "src": "assets/images/productsSection/bolsas.png",
+      "alt": "Foto de uma bolsa marron",
+      "blockClass": "Products_Sections_Image"
+    }
+  },
+  "rich-text#products_Sections_1": {
+    "props": {
+      "text": "Bolsas",
+      "blockClass": "Products_Sections_Card_Text"
+    }
+  },
+
+  "flex-layout.col#products_Sections_2": {
+    "children": ["image#products_Sections_2", "rich-text#products_Sections_2"],
+    "props": {
+      "blockClass": "Products_Sections_Card"
+    }
+  },
+
+  "image#products_Sections_2": {
+    "props": {
+      "src": "assets/images/productsSection/tenis.png",
+      "alt": "Foto de um tênis beje, com detalhes em amarelo e vermelho",
+      "blockClass": "Products_Sections_Image"
+    }
+  },
+  "rich-text#products_Sections_2": {
+    "props": {
+      "text": "Tênis",
+      "blockClass": "Products_Sections_Card_Text"
+    }
+  },
+
+  "flex-layout.col#products_Sections_3": {
+    "children": ["image#products_Sections_3", "rich-text#products_Sections_3"],
+    "props": {
+      "blockClass": "Products_Sections_Card"
+    }
+  },
+  "image#products_Sections_3": {
+    "props": {
+      "src": "assets/images/productsSection/rasteiras.png",
+      "alt": "Rasteirinha em couro marron",
+      "blockClass": "Products_Sections_Image"
+    }
+  },
+  "rich-text#products_Sections_3": {
+    "props": {
+      "text": "Rasteiras",
+      "blockClass": "Products_Sections_Card_Text"
+    }
+  },
+
+  "flex-layout.col#products_Sections_4": {
+    "children": ["image#products_Sections_4", "rich-text#products_Sections_4"],
+    "props": {
+      "blockClass": "Products_Sections_Card"
+    }
+  },
+  "image#products_Sections_4": {
+    "props": {
+      "src": "assets/images/productsSection/plataformas.png",
+      "alt": "Plataforma em couro marron",
+      "blockClass": "Products_Sections_Image"
+    }
+  },
+  "rich-text#products_Sections_4": {
+    "props": {
+      "text": "Plataformas",
+      "blockClass": "Products_Sections_Card_Text"
+    }
+  },
+
+  "flex-layout.col#products_Sections_5": {
+    "children": ["image#products_Sections_5", "rich-text#products_Sections_5"],
+    "props": {
+      "blockClass": "Products_Sections_Card"
+    }
+  },
+  "image#products_Sections_5": {
+    "props": {
+      "src": "assets/images/productsSection/botas.png",
+      "alt": "Bota em marron claro",
+      "blockClass": "Products_Sections_Image"
+    }
+  },
+  "rich-text#products_Sections_5": {
+    "props": {
+      "text": "Botas",
+      "blockClass": "Products_Sections_Card_Text"
+    }
+  },
+
+  "flex-layout.col#products_Sections_6": {
+    "children": ["image#products_Sections_6", "rich-text#products_Sections_6"],
+    "props": {
+      "blockClass": "Products_Sections_Card"
+    }
+  },
+  "image#products_Sections_6": {
+    "props": {
+      "src": "assets/images/productsSection/sapatilhas.png",
+      "alt": "Sapatilha em couro rosa claro",
+      "blockClass": "Products_Sections_Image"
+    }
+  },
+  "rich-text#products_Sections_6": {
+    "props": {
+      "text": "Sapatilhas",
+      "blockClass": "Products_Sections_Card_Text"
+    }
+  }
+}

@@ -10,6 +10,7 @@
       "blockClass": "Payment_Banner"
     }
   },
+
   "flex-layout.row#payment_Banner_children1": {
     "children": [
       "image#payment_Banner_children1",
